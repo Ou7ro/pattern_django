@@ -1,0 +1,79 @@
+body{
+    background: #2c2c2c;
+}
+
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.6;
+    color: #fff;
+    height: 100vh; /*Сто процентов высоты экрана*/
+    border-right: 3px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 56px;
+    margin-left: 20px; /*Отступ с левой стороны*/
+    font-weight: bold; /*Жирность шрифта*/
+    position: relative;
+    top: -5px;
+}
+
+aside h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+/*Обращаемся к каждому элементу*/
+aside ul li {   
+    color: #fff;
+    display: block; /*каждый элемент блочный*/
+    margin-top: 20px;
+    transition: transform .6s ease; /*Плавность анимации увеличения, ТОЛЬКО ДЛЯ ТРАНФОРМ*/
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #62C144; 
+    transform: scale(1.05); /*Увеличение при наведении*/
+}
+/*Текст мейн страницы*/
+main .features {
+    float:left;
+    color:#fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+main .features h1{
+    font-size: 50px;
+}
+main .features p {
+    max-width: 400px;
+    margin: 20px auto; /*Отсупы сверху и снизу 20, сбоку авто*/
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%; /*Отсупы слева*/
+    width: 500px; /*Ширина*/
+    margin-top: 50px; /*Отсупы сверху*/
+}
+
